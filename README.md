@@ -9,23 +9,6 @@ React + Vite + TS + Monaco + Tailwind + Zustand + React Flow · FastAPI + SQLAlc
 Alembic + sqlglot · PostgreSQL (app data) + SQLite in-memory sandbox (query execution) ·
 Redis + Celery · Docker Compose · pytest / Vitest · GitHub Actions CI
 
-## Run locally
-
-```bash
-cp .env.example .env
-docker compose up --build
-```
-
-- Frontend: http://localhost:5173
-- Backend docs: http://localhost:8000/docs
-
-## Run tests
-
-```bash
-cd backend && pytest -v
-cd frontend && npm run test
-```
-
 ## Project layout
 
 See `backend/app/` (api, db, sql_engine, services, workers, schemas) and
